@@ -1,4 +1,6 @@
-# gulpfile
+# Web Project
+
+A simple default web project starter which sets up things like gulpfile, basic folder structure, etc.
 
 Gulpfile for easy building / minifying of CSS + JS, including 'dev' watch tasks for easy debugging during development.
 
