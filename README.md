@@ -10,25 +10,25 @@ Project Name
 
 = package.json
 
-inc_css.php
+= inc_css.php
 
-inc_js.php
+= inc_js.php
 
-website
+= website
 
-css
+=== css
 
-img
+=== img
 
-js
+=== js
 
-workbench
+= workbench
 
-img
+=== img
 
-js
+=== js
 
-scss
+=== scss
 
 inc_css.php and inc_js.php are included here for injection of the created .CSS and .JS files. Resulting filenames are based on the 'name' property from package.json.
 
