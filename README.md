@@ -10,13 +10,13 @@ Expects a folder structure like:
 -   inc_css.php
 -   inc_js.php
 -   - website
--     - css
--     - img
--     - js
+-     --- css
+-     --- img
+-     --- js
 -   - workbench
--     - img
--     - js
--     - scss
+-     --- img
+-     --- js
+-     --- scss
 
 inc_css.php and inc_js.php are included here for injection of the created .CSS and .JS files. Resulting filenames are based on the 'name' property from package.json.
 
