@@ -5,17 +5,29 @@ Gulpfile for easy building / minifying of CSS + JS, including 'dev' watch tasks 
 Expects a folder structure like:
 
 Project Name
+
 gulpfile.js
+
 package.json
+
 inc_css.php
+
 inc_js.php
+
 website
+
 css
+
 img
+
 js
+
 workbench
+
 img
+
 js
+
 scss
 
 inc_css.php and inc_js.php are included here for injection of the created .CSS and .JS files. Resulting filenames are based on the 'name' property from package.json.
@@ -31,13 +43,23 @@ Run 'gulp build' to rebuild everything.
 Individual functions:
 
 clean: clears everything out of the info.dest CSS and JS folders.
+
 styles: compiles the SASS files in info.src.css, minifies, combines media queries and adds to the info.dest.css folder.
+
 dev-styles: as 'styles' but no minification or combining of medua queries (for easy debugging).
+
 styles-IE: builds an IE-specific .scss file.
+
 dev-styles-IE: as above, without minification or media query combination.
+
 js: concatenates and minifies all info.src .js files to info.dest js folder.
+
 dev-js: moves info.src js files as-is to the info.dest folder.
+
 bower: concatenates and minifies bower CSS and JS files into the info.dest folders -- adding a '_vendor' prefix to the resulting filename.
+
 dev-bower: moveds the bower files, no concat or minification.
+
 imgmin: minimizes png files into the info.dest folder.
+
 html: merges the info.dest CSS and JS filenames into relevant files (included files containing the inject tags).
