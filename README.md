@@ -6,9 +6,9 @@ Expects a folder structure like:
 
 Project Name
 
-gulpfile.js
+= gulpfile.js
 
-package.json
+= package.json
 
 inc_css.php
 
@@ -60,6 +60,8 @@ bower: concatenates and minifies bower CSS and JS files into the info.dest folde
 
 dev-bower: moveds the bower files, no concat or minification.
 
-imgmin: minimizes png files into the info.dest folder.
+imgmin:
+minimizes png files into the info.dest folder.
 
-html: merges the info.dest CSS and JS filenames into relevant files (included files containing the inject tags).
+html:
+merges the info.dest CSS and JS filenames into relevant files (included files containing the inject tags).
